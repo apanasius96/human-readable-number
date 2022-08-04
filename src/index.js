@@ -103,7 +103,7 @@ module.exports = function toReadable (number) {
         }
         result = resultDozens;
       }
-      else { }
+      
     }
   return result;
 };
