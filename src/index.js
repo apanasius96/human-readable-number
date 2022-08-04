@@ -66,7 +66,9 @@ module.exports = function toReadable (number) {
           case 19:
           result = 'nineteen';
           break;
-          
+          case 10:
+          resultDozens = 'ten';
+          break;
         }
       }
       else if (strNumber[1] === '0'){
