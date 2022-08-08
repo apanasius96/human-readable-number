@@ -66,44 +66,41 @@ module.exports = function toReadable (number) {
           case 19:
           result = 'nineteen';
           break;
-          case 10:
-          resultDozens = 'ten';
-          break;
+
         }
       }
       else if (strNumber[1] === '0'){
         switch(number){
           case 10:
-          resultDozens = 'ten';
+          result = 'ten';
           break;
           case 20:
-          resultDozens = 'twenty';
+          result = 'twenty';
           break;
           case 30:
-          resultDozens = 'thirty';
+          result = 'thirty';
           break;
           case 40:
-          resultDozens = 'forty';
+          result = 'forty';
           break;
           case 50:
-          resultDozens = 'fifty';
+          result = 'fifty';
           break;
           case 60:
-          resultDozens = 'sixty';
+          result = 'sixty';
           break;
           case 70:
-          resultDozens = 'seventy';
+          result = 'seventy';
           break;
           case 80:
-          resultDozens = 'eighty';
+          result = 'eighty';
           break;
           case 90:
-          resultDozens = 'ninety';
+          result = 'ninety';
           break;
         }
-        result = resultDozens;
       }
-      
     }
   return result;
 };
+
